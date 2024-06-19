@@ -9,7 +9,7 @@ Param(
     [Parameter(Position = 1)]
     [string]$Location,
     [Parameter(Position = 2)]
-    [string]$TemplateParameterFile = "./main-sample.bicepparam",
+    [string]$TemplateParameterFile = "./main-redcap.bicepparam",
     [Parameter(Position = 3)]
     [string]$SubscriptionId
 )
